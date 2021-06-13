@@ -1,0 +1,11 @@
+---
+application:
+  name: "stapi"
+  project: "check"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-stapi"
+  routes:
+  - application_name: "stapi"
+    paths:
+    - "/*"
